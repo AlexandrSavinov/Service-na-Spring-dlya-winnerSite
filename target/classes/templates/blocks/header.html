@@ -1,0 +1,28 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="../../static/head.css">
+    <link rel="stylesheet" href="/static/head.css">
+</head>
+
+    <div class="top" th:fragment="head" id="head">
+        <div class="logo">
+            <a class="logo" href="index.html">
+                Znanya
+            </a>
+        </div>
+        <div class="nav">
+            <ul>
+                <a class="href" th:href="@{/}"><li>ГЛАВНАЯ</li></a>
+                
+                <a class="href" th:href="@{/main}"><li>ОТЗЫВЫ</li></a>
+                <a class="href" th:href="@{/registr}"><li>РЕГИСТРАЦИЯ</li></a>
+                
+                <form th:action="@{/logout}" method="post" class="li">
+                    <input type="submit" value="Sign Out" class="sigOut"/>
+                </form>
+            </ul>
+        </div>
+    </div>
+
+
+

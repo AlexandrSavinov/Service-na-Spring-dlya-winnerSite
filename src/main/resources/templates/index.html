@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org" xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="/static/style.css">
+
+
+    <link rel="stylesheet" href="../static/bottom.css">
+    <link rel="stylesheet" href="/static/bottom.css">
+
+    <link rel="stylesheet" href="../static/index.css">
+    <link rel="stylesheet" href="/static/index.css">
+    
+    <link rel="stylesheet" href="../static/head.css">
+    <link rel="stylesheet" href="/static/head.css">
+
+    <title>Home</title>
+</head>
+<body>
+    <div class="top" th:fragment="head" id="head">
+        <div class="logo">
+            <a class="logo" href="index.html">
+                Znanya
+            </a>
+        </div>
+        <div class="nav">
+            <ul>
+                <a class="href" th:href="@{/}"><li>ГЛАВНАЯ</li></a>
+                <a class="href" th:href="@{/registr}"><li>РЕГИСТРАЦИЯ</li></a>
+                <a class="href" th:href="@{/main}"><li>ОТЗЫВЫ</li></a>
+                
+                <form th:action="@{/logout}" method="post" class="li">
+                    <input type="submit" value="Sign Out" class="sigOut"/>
+                </form>
+            </ul>
+        </div>
+    </div>
+
+<div class="raiting_txt">НАС ВЫБИРАЮТ:</div>
+
+<div class="con">
+    <div class="in_bl" id="in_bl" >
+        <div class="bl" th:each="list:${comments}">
+
+           <div class="bio">
+              <div class="ava">
+                  <img th:src="@{img/}+${list.getFilename()}" alt="">
+              </div>
+
+              <div class="name" th:text="${list.getAuthorName()}">Administrator</div>
+              <div class="raiting" th:text="${list.getTag()}">★ ★ ★ ★ ★</div>
+           </div>
+
+           <div class="txt" th:text="${list.getText()}">
+               Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.
+           </div>
+        </div>  
+    </div>
+</div>
+<!--
+            <div class="animDote" id="animDote">
+               <div class="dote l"></div>
+               <div class="dote"></div>
+               <div class="dote "></div>
+               <div class="dote"></div>
+               <div class="dote r"></div>
+           </div>  
+-->
+
+
+<script src="static/js/slide.js"></script>
+<script src="../static/js/slide.js"></script>
+
+<script src="static/js/raiting.js"></script>
+<script src="../static/js/raiting.js"></script>
+
+</body>
+</html>

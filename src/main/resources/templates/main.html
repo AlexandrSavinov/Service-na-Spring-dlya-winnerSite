@@ -1,0 +1,115 @@
+<html  xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org" xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="/static/style.css">
+    
+    <link rel="stylesheet" href="../static/head.css">
+    <link rel="stylesheet" href="/static/head.css">
+    
+    <link rel="stylesheet" href="../static/main.css">
+    <link rel="stylesheet" href="/static/main.css">    
+    
+    
+    <link rel="stylesheet" href="../static/bottom.css">
+    <link rel="stylesheet" href="/static/bottom.css">
+    
+    <link rel="stylesheet" href="../static/scrollbar.css">
+    <link rel="stylesheet" href="/static/scrollbar.css">
+
+
+</head>
+<body>
+
+    <div class="top" id="top">
+        <div class="logo">
+            <a class="logo"  href="index.html" >
+                Znanya
+            </a>
+        </div>
+        <div class="nav">
+            <ul>
+                <a class="href" th:href="@{/}"><li>ГЛАВНАЯ</li></a>
+                <a class="href" th:href="@{/user}"><li>РЕДАКТОР</li></a>
+                <a class="href" th:href="@{/main}"><li>ОТЗЫВЫ</li></a>
+                <a class="href" th:href="@{/registr}"><li>РЕГИСТРАЦИЯ</li></a>
+                
+                <form th:action="@{/logout}" method="post" class="li">
+                    <input type="submit" value="Sign Out" class="sigOut"/>
+                </form>
+            </ul>
+        </div>
+        
+    </div>
+
+    <div class="area">
+    
+    <form th:action="@{/main}" method="get" class="filter" id="filter">
+            <input type="text" name="filter" th:value="${filter}" placeholder="  Введите имя пользователя" class="filter_input"/>
+            <input type="submit" value="Поиск" class="btn_filter"/>
+    </form>
+        
+    <div class="contain">
+        <div class="textarea"  th:each="message:${messages}">
+            <div class="in_textarea">
+               <div class="bl">
+<!--                    <img class="ava" src="../static/ava.png" alt="">-->
+                    <img class="ava" th:src="@{img/}+${message.getFilename()}" alt="">
+
+                    
+                    <b th:text="${message.getAuthorName()}">AdminQwerty</b>
+                    
+                    <div class="raiting" th:text="${message.getTag()}">5</div>
+                </div>
+                <div class="txt">
+                
+                    <span th:text="${message.getText()}">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.</span>
+                    
+                </div>
+                
+            </div>
+        </div>       
+    </div>
+
+        <form id="form" th:action="@{/get}" method="post" class="form">
+           
+            Оцените качество услуг:<input class="scroll_reviews" type="range" min="1" max="5" step="1" value="3" id="tag_sroll" oninput="getValue()"> 
+            <input type="text" name="tag" value="3" id="tag"/>
+            
+            <div class="out_btn">
+               <textarea name="text" class="send" placeholder="Напишите сюда свой отзыв"></textarea>
+               <div class="in_btn">                <input type="submit" class="btn" src="../static/send.png" value=""/>
+               </div>
+
+            </div>
+        </form>
+
+    </div>
+    
+    <div id="bottom">
+
+    <div class="in_bottom" id="foother">
+        <div class="in_b_logo">
+            <a class="in_b_logo_a" href="index.html">
+                Winner
+            </a>
+        </div>
+        <div class="in_b_nav">
+            <ul class="in_b_nav_ul">
+                <a class="in_b_a" th:href="@{/}"><li>ГЛАВНАЯ</li></a>
+                <a class="in_b_a" th:href="@{/registr}"><li>РЕГИСТРАЦИЯ</li></a>
+                <a class="in_b_a" th:href="@{/main}"><li>ОТЗЫВЫ</li></a>
+            </ul>
+        </div>
+         <div class="in_b_txt">by winner-insider</div>
+    </div>
+    </div>
+    
+    
+<script src="static/js/raiting.js"></script>
+<script src="../static/js/raiting.js"></script>
+
+<script src="static/js/scrollBottom.js"></script>
+<script src="../static/js/scrollBottom.js"></script>
+
+</body>
+</html>

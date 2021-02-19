@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6f723f29-2b57-4e33-bc56-96c48b1c2988" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/znanya/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/znanya/controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/znanya/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/znanya/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/znanya/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/znanya/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/znanya/repos/MessageRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/znanya/repos/MessageRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/znanya/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/znanya/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/head.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/head.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/scroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/scroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/scrollBottom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/scrollBottom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scrollbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/scrollbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blocks/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blocks/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registr.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userEdit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/znanya/controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/znanya/controllers/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/znanya/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/znanya/controllers/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/znanya/repos/MessageRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/znanya/repos/MessageRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/head.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/head.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/scroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/scroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/scrollBottom.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/scrollBottom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/scrollbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/scrollbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/blocks/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/blocks/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/registr.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/registr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/userEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/userEdit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/userList.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/userList.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nQyeCDO9jhER0hOeZgqvaNIxjb" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\!JAVA!\znaya2.0\src\main\resources\static" />
+      <recent name="D:\Project\!JAVA!\znaya2.0\src\main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\!JAVA!\znaya2.0\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="znanya" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.znanya.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f723f29-2b57-4e33-bc56-96c48b1c2988" name="Default Changelist" comment="" />
+      <created>1611336701391</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611336701391</updated>
+      <workItem from="1611336704595" duration="1665000" />
+      <workItem from="1611339668462" duration="5829000" />
+      <workItem from="1611349330365" duration="5448000" />
+      <workItem from="1611405866697" duration="8701000" />
+      <workItem from="1611416552843" duration="5000" />
+      <workItem from="1611417754292" duration="2014000" />
+      <workItem from="1611422517028" duration="847000" />
+      <workItem from="1611423409516" duration="70000" />
+      <workItem from="1611424993173" duration="135000" />
+      <workItem from="1611426631714" duration="201000" />
+      <workItem from="1611429603859" duration="592000" />
+      <workItem from="1611433112285" duration="640000" />
+      <workItem from="1611434625138" duration="539000" />
+      <workItem from="1611436641555" duration="30000" />
+      <workItem from="1611438355918" duration="318000" />
+      <workItem from="1611439049625" duration="209000" />
+      <workItem from="1611443024188" duration="886000" />
+      <workItem from="1611443938650" duration="2034000" />
+      <workItem from="1611446083267" duration="366000" />
+      <workItem from="1611493596909" duration="36000" />
+      <workItem from="1611493901102" duration="1758000" />
+      <workItem from="1611524704614" duration="8072000" />
+      <workItem from="1611574260198" duration="15604000" />
+      <workItem from="1611943442812" duration="10852000" />
+      <workItem from="1612010117807" duration="9846000" />
+      <workItem from="1612122312912" duration="5876000" />
+      <workItem from="1612622060719" duration="5989000" />
+      <workItem from="1612628205755" duration="507000" />
+      <workItem from="1612628739796" duration="451000" />
+      <workItem from="1612629215959" duration="2100000" />
+      <workItem from="1612633032721" duration="195000" />
+      <workItem from="1612636803385" duration="3124000" />
+      <workItem from="1612815842363" duration="744000" />
+      <workItem from="1612963102839" duration="1502000" />
+      <workItem from="1612966039961" duration="2707000" />
+      <workItem from="1612971447702" duration="190000" />
+      <workItem from="1612976765766" duration="5773000" />
+      <workItem from="1612984334937" duration="489000" />
+      <workItem from="1613066279455" duration="215000" />
+      <workItem from="1613066863651" duration="140000" />
+      <workItem from="1613151465520" duration="433000" />
+      <workItem from="1613330612468" duration="1457000" />
+      <workItem from="1613333842815" duration="3076000" />
+      <workItem from="1613337205496" duration="3474000" />
+      <workItem from="1613398950140" duration="2522000" />
+      <workItem from="1613405365551" duration="2438000" />
+      <workItem from="1613415174186" duration="757000" />
+      <workItem from="1613487310572" duration="1732000" />
+      <workItem from="1613655353113" duration="626000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
