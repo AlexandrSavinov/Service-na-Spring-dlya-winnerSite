@@ -80,7 +80,7 @@
     height: 100%;
     
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 
 /*    box-shadow: 0 0 px 1px #00c6fb;*/

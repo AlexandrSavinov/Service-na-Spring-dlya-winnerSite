@@ -42,7 +42,6 @@ public class MainController {
         Iterable<Message> comments = messageRepo.getLast();
         map.addAttribute("comments",comments);
 
-
         return "index";
     }
 
