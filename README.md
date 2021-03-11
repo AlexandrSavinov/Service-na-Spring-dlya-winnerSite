@@ -1,4 +1,13 @@
-# app appearance
-![image](https://user-images.githubusercontent.com/60195785/110855658-b9120200-82c7-11eb-871b-98b3edbd139c.png)
-![image](https://user-images.githubusercontent.com/60195785/110855726-ccbd6880-82c7-11eb-9339-ea878a1748fc.png)
-![image](https://user-images.githubusercontent.com/60195785/110855755-d515a380-82c7-11eb-820f-4a7c871225f0.png)
+# site appearance
+Main page
+![image](https://user-images.githubusercontent.com/60195785/110856227-6dac2380-82c8-11eb-9c03-9aeda1293651.png)
+
+Login page
+![image](https://user-images.githubusercontent.com/60195785/110856285-80265d00-82c8-11eb-9ee9-384a4021eb17.png)
+
+Reviews page
+![image](https://user-images.githubusercontent.com/60195785/110856467-b82da000-82c8-11eb-875d-490100523005.png)
+
+
+Editor Menu
+![image](https://user-images.githubusercontent.com/60195785/110856517-cb407000-82c8-11eb-8336-d412c997d148.png)
