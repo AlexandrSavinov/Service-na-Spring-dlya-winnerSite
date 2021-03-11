@@ -1,6 +1,6 @@
 # site appearance
 Main page
-![image](https://user-images.githubusercontent.com/60195785/110856227-6dac2380-82c8-11eb-9c03-9aeda1293651.png)
+![image](https://user-images.githubusercontent.com/60195785/110856616-eb702f00-82c8-11eb-99d4-0c1066c072e4.png)
 
 Login page
 ![image](https://user-images.githubusercontent.com/60195785/110856285-80265d00-82c8-11eb-9ee9-384a4021eb17.png)
