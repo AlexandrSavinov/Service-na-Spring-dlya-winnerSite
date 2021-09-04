@@ -1,4 +1,4 @@
-# site appearance
+# site appearance (Spring приложение)
 Main page
 ![image](https://user-images.githubusercontent.com/60195785/110856616-eb702f00-82c8-11eb-99d4-0c1066c072e4.png)
 
